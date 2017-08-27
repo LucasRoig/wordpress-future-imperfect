@@ -25,12 +25,12 @@
 
 /* Author */
 
-	.author .name {
+	.author-fut-imp .name {
 		display: inline-block;
 		vertical-align: middle;
 	}
 
-	.author img {
+	.author-fut-imp img {
 		display: inline-block;
 		vertical-align: middle;
 	}
