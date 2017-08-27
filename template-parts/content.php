@@ -1,14 +1,10 @@
 <?php
 /**
  * Template part for displaying posts.
- *
  * @link https://codex.wordpress.org/Template_Hierarchy
- *
  * @package Future_Imperfect
  */
-
 ?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
@@ -17,7 +13,6 @@
 			} else {
 				the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 			}
-
 		if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php future_imperfect_posted_on(); ?>
@@ -25,7 +20,6 @@
 		<?php
 		endif; ?>
 	</header><!-- .entry-header -->
-
 	<div class="entry-content">
 		<?php
 			the_content( sprintf(

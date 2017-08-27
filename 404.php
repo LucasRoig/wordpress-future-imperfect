@@ -8,10 +8,8 @@
  */
 
 get_header(); ?>
-
 	<!-- Main -->
 	<div id="main">
-
 		<!-- Post -->
 		<article class="post">
 			<header>
