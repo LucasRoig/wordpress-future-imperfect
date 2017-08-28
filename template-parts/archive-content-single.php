@@ -35,7 +35,7 @@
 
 	<footer>
 		<ul class="actions">
-			<li><a href="<?php esc_url( the_permalink() ); ?>" class="button big"><?php _e( 'Continue Reading', 'future-imperfect' ); ?></a></li>
+			<li><a href="<?php esc_url( the_permalink() ); ?>" class="button big"><?php _e( 'Lire la suite', 'future-imperfect' ); ?></a></li>
 		</ul>
 		<ul class="stats">
 			<li class="categories"><?php echo wp_kses_post( get_the_category_list( ',' ) ); ?></li>

@@ -65,8 +65,8 @@ get_header(); ?>
 
 			// make pagination
 			echo '<ul class="actions pagination">' . "\n";
-				echo '<li><a href="' . get_previous_posts_page_link() . '" class="' . $prev_disable . 'button big previous">Previous Page</a></li>' . "\n";
-				echo '<li><a href="' . get_next_posts_page_link() . '" class="' , $next_disable . 'button big next">Next Page</a></li>' . "\n";
+				echo '<li><a href="' . get_previous_posts_page_link() . '" class="' . $prev_disable . 'button big previous">Page Précédente</a></li>' . "\n";
+				echo '<li><a href="' . get_next_posts_page_link() . '" class="' , $next_disable . 'button big next">Page Suivante</a></li>' . "\n";
 			echo '</ul>' . "\n";
 
 		endif; ?>
